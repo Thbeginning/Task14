@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body#loginBody{
+    background-image: linear-gradient(rgba(14, 7, 7, 0.7),rgba(14, 5, 5, 0.7)), url(images/img5.jpg);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;    
+}
+
+
+.loginHeader{
+    text-align: center;
+
+}
+.loginHeader{
+    margin-bottom: 60px;
+}
+.loginHeader h1{
+    font-size: 100px;
+    color: #f685a2;
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+.loginHeader p{
+    color: #fcfbfb;
+    font-size: 40px;
+    margin: 0px ;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.loginHeader p:after{
+    content:'';
+    display:block ;
+    height: 5px;
+    background: #f685a2; 
+    margin: 0 auto;
+}
+.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background:( 0, 0, 0, -5);
+    padding: 50px;
+    border:2px solid white ;
+    border-radius: 8px;
+    
+}
+.loginInputContainer{
+    margin-top: 30px;
+}
+
+.loginInputContainer label{
+display: block;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.loginInputContainer input{
+    height: 30px;
+    width: 100%; 
+    border:2px solid #d40339 ;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+.loginButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background:#f685a2 ;
+    border: none;
+    color: white;
+
+}
+<!------homepage-------->
+.header{
+width: 100%;
+height: 20px;
+background: #f685a1;
+}
+.banner{
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.homepageContainer{
+    width: 100%;
+    max-width: 9000px;
+    margin: 0 auto;
+}
+.bannerHeader h1{
+    font-size: 100px;
+    color: #f685a1;
+    line-height: 100%;
+}
+
+.bannerHeader p{
+    font-size:40px ;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+p.bannerTagline{
+    margin-top: 20px;
+    font-size: 25px;
+    columns: white;
+}
+.bannerIcons{
+    margin-top: 50px;
+}
+.bannerIcons a{
+    font-size: 23px;
+    margin-left: 40px;
+    padding:7px 15px;
+    background-color: rgb(0,0,0,0.5);
+    color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.bannerIcons a:first-child{
+    margin: 0px;
+
+}
+.bannerIcons a:hover{
+    color: #ffffff;
+    font-size: 25px;
+    background: #f685a1;
+
+}
+
+
+
